@@ -74,7 +74,7 @@ These blockchain controversies suggest that we might have an incomplete view of 
 
 Is it accurate (or even feasible) to view decentralization as the elimination of authority? If so, then we don't need to discuss the civics of computing networks, because there is no sophistication to it! If, however, decentralization can only seek to maximize the distribution of authority (as the author of this paper believes) then we should be looking for a more sophisticated model of governance which categorizes matters such as protocol development, legislative processes, and the nature of rollbacks in effective governance.
 
-### Regarding the nation state
+### Regarding governments
 
 Finally, before introducing our conceptual framework of computing civics, we should clarify some differences between the societies of computers and the societies of human beings.
 
@@ -283,18 +283,6 @@ To counter this, we should seek to unify the rights into one user-type. These un
 </table>
 
 These rights will constrain what authorities are allowed to dictate to users.
-
-### Separation of powers
-
-Historically the Web has conflated most powers into the host. To counter the influence of infrastructure on the software layer, network components should be separated into the following powers:
-
- - Application software
- - Infrastructure (computing, storage)
- - Services (naming, aggregation, moderation)
-
-By separating powers, we reduce the control which an authority can assume. Rather than running applications and infrastructure, services will provide a small set of functions which integrated into the communities. This maximizes the choice of users, and reduces the cost of replacing an authority which misbehaves.
-
-Computing and storage infrastructure should be highly generic. When possible, users - not developers - should deploy applications to their own infastructure. Users can rent infrastructure from cloud companies or use computing devices they personally own. A benefit of this design is that it reduces the need for dev-ops for application authors, as the apps are hosted by users themselves.
 
 ---
 
