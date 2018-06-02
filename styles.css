@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  padding-bottom: 10em;
+  font-family: Palatino;
+  font-size: 18px;
+  line-height: 1.5;
+}
+nav {
+  flex: 0 0 400px;
+}
+nav > ul {
+  position: fixed;
+  top: 1em;
+}
+main {
+  max-width: 650px;
+}
+#nav-toggle {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 16px;
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+  cursor: pointer;
+}
+#nav-toggle:before {
+  content: '';
+  display: block;
+  position: relative;
+  top: 6px;
+  left: 0;
+  width: 30px;
+  border-bottom: 4px solid gray;
+}
+@media (max-width: 1050px) {
+  body {
+    display: block;
+  }
+  #nav-toggle {
+    display: block;
+  }
+  nav {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+  }
+  nav.visible {
+    display: block;
+  }
+  nav ul {
+    position: relative;
+    margin: 0;
+    list-style: none;
+  }
+  nav > ul {
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  nav a {
+    display: block;
+    padding: 15px 20px;
+    background: #eee;
+    margin: 0 0 10px;
+    text-decoration: none;
+  }
+  main {
+    margin: 0 auto;
+  }
+}
+.header h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.header h1 small {
+  font-size: 70%;
+}
+.header .author {
+  text-align: center;
+}
+.header .author:before,
+.header .author:after {
+  content: '~';
+  display: block;
+  color: gray;
+  margin: 0.75em;
+}
+footer:before {
+  content: '~';
+  display: block;
+  color: gray;
+  margin: 3em;
+  text-align: center;
+}
+code {
+  font-size: 90%;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+thead {
+  background: #eee;
+  font-weight: bold;
+}
+td {
+  border: 1px solid #555;
+  padding: 0.3em 0.5em;
+}
+td:first-child,
+td:nth-child(2) {
+  white-space: nowrap;
+}
+table.refs td {
+  border: 0;
+}
+blockquote {
+  margin: 2em;
+  font-size: 1.1em;
+}
+hr {
+  margin: 5em;
+  border: 1px solid #eee;
+}
