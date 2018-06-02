@@ -55,6 +55,7 @@ const docHTML = md.renderer.render(tocRendered.tokens, md.options)
 // =
 const out = `<html>
   <head>
+    <meta charset="utf-8" />
     <title>Information Civics</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
