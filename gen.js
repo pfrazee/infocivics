@@ -58,6 +58,12 @@ const out = `<html>
     <meta charset="utf-8" />
     <title>Information Civics</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="me" href="https://twitter.com/pfrazee">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pfrazee">
+    <meta name="twitter:creator" content="@pfrazee">
+    <meta name="og:title" content="Information Civics">
+    <meta name="og:description" content="An exploration of computer-network architectures as civic structures.">
   </head>
   <body>
     <div id="nav-toggle"></div>

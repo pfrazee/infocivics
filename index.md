@@ -32,7 +32,7 @@ The "blockchain" projects like Bitcoin have attempted to solve the puzzle by rem
 
 The concept of Network Constitutionalism is an important innovation. It is a method of constraining authority to follow a published code. Not only does the method of constraint give users protection from abuse by authorities, but the use of published code introduces the possibility of legislating the network. Users can take part in the governance of the network code by debating its definitions in order to protect their interests.
 
-In this living paper, we will explore network design as a civic practice. We will establish a philosophy of network design called "Information Civics." We will draw from history to justify this philosophy of design (Section II). Then we will explore the fundamental premises and practices of Information Civics (Section III). Finally, we will explore different technical patterns and how they relate to the civic design of a network.
+In this paper, we will explore network design as a civic practice. We will establish a philosophy of network design called "Information Civics." We will draw from history to justify this philosophy of design (Section II). Then we will explore the fundamental premises and practices of Information Civics (Section III). Finally, we will explore different technical patterns and how they relate to the civic design of a network.
 
 ---
 
