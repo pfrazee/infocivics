@@ -279,13 +279,11 @@ At time of writing, decentralized consensus has been held back by issues of perf
 
 ## VII. Conclusion
 
-In this essay, I have attempted to discuss the civic philosophy which is inherent in the decentralization movement, and explored some ideas which can be used to distribute authority more equally throughout social computing networks.
+In this essay, I have attempted to discuss the civic philosophy which is inherent in the decentralization movement, and explored some ideas which can be used to distribute authority more equally throughout social computing networks. I have not attempted to share perfect solutions, but to offer some useful ideas for how we might think about civics online.
 
-I will close this essay by offering a warning.
+Civic systems are complex and unpredictable. They can start well and fall into disrepair. They require rigour. We should be careful not to lull ourselves into simple extremes of perspective. Though the intentions are often good, it's common for political ideologies to value purity over sophisitication.
 
-Do not be lulled into simple extremes of perspective. There is no ideal of objectivity, nor any final machine which will order the affairs of humanity. There is only wisdom, quality, and careful judgement. Markets are as deadly device for governance as pure democracy is. Not all interactions should be tokenized or monetized. Not all decisions should be delegated. Most importantly: authority is not inherently evil, only the selfish application of authority, or the lethargy of thought which enables it.
-
-Be rigorous. Be careful. Challenge your assumptions, and never lean on a single mechanism. The greatest wisdom of any government is to apply multiple overlapping mechanisms which check each other.
+There is no ideal of objectivity, nor any final machine which will order the affairs of humanity. Markets are as deadly device for governance as pure democracy is. Not all interactions should be tokenized or monetized. Not all decisions should be delegated. Authority is not inherently evil; only the selfish application of authority, or the lethargy of thought which enables it.
 
 <footer>
   <p>
@@ -295,5 +293,8 @@ Be rigorous. Be careful. Challenge your assumptions, and never lean on a single 
     You can find more of my writing and related work at
     <a href="https://pfrazee.hashbase.io">pfrazee.hashbase.io</a> and my Twitter account
     <a href="https://twitter.com/pfrazee">@pfrazee</a>.
+  </p>
+  <p>
+    Thanks to <a href="https://twitter.com/taravancil">Tara Vancil</a>, <a href="https://twitter.com/mafintosh">Mathias Buus</a>, <a href="https://twitter.com/dominictarr">Dominic Tarr</a>, and <a href="https://twitter.com/whimful">Mix Irving</a>, among many others.
   </p>
 </footer>
