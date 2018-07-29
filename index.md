@@ -1,14 +1,10 @@
 ## I. Introduction
 
-The Internet has a history of pursuing a greater state of liberty. David Clark, chief architect of the Internet protocols, captured this in the [Tao of the IETF](http://www6.ietf.org/tao.html "The Tao of the IETF"):
+How should the Internet be governed? How should we manage the information, the media, the software, the politics, the people of the Web?
 
-> We reject kings, presidents and voting. We believe in rough consensus and running code. 
+Though early crypto-anarchists imagined the Internet as ungovernable, anarchy does not describe the Internet we know today. Corporations oversee the majority of our online activity, with most people publishing and connecting through centralized platforms like Facebook, Twitter, and Google. The only non-corporate-owned application that most users are familiar with is email — and even it’s politically dominated by a corporation (Google).
 
-Some of the Internet's early political thinkers identified as "crypto-anarchists" and developed [treatises for total digital freedom](https://web.archive.org/web/20130822092045/http://www.spinnaker.com/crypt/cyphernomicon/CP-FAQ "Cyphernomicon"), and their views still [drive hacker culture today](https://www.coindesk.com/the-rise-of-the-cypherpunks/ "The Rise of the Cypherpunks").
-
-Though early crypto-anarchists imagined the Internet as an ungovernable space, anarchy does not describe the Internet as we know it today. Corporate governance oversees the majority of our online activity, with most people publishing and connecting through centralized platforms like Facebook, Twitter, and Google. The only non-corporate-owned application that most users are familiar with is email — and even it’s politically dominated by a corporation (Google).
-
-If the Internet is not an anarchic political system, then how should it be described? Bruce Schneier uses the term "feudalism."
+How should the current system be described? Bruce Schneier uses the term "feudalism."
 
  > Power is consolidating around both vendor-managed user devices and large personal-data aggregators ... the rise of cloud computing means that we no longer have control of our data. ... And second, the rise of vendor-managed platforms means that we no longer have control of our computing devices.
 
@@ -16,23 +12,13 @@ If the Internet is not an anarchic political system, then how should it be descr
 
  > <cite>-- Bruce Schneier, ["Power in the Age of the Feudal Internet"](https://web.archive.org/web/20170618222637/http://en.collaboratory.de/w/Power_in_the_Age_of_the_Feudal_Internet "Power in the Age of the Feudal Internet")</cite>
 
-Schneier points to the burden of administering applications as the driving force for the feudal-like relationships between Internet companies and their users. In exchange for valuable services that they might not be able (or willing) to provide on their own, users cede authority over how those services and applications function.
+Even the most casual technology-user can recognize the inescapable role that applications like email, social networking, and document collaboration play in modern life. These services drive our lives, yet as users, we’re completely disconnected from their governance.
 
-Even the most casual technology-user can recognize the inescapable role that applications like email, social networking, and document collaboration play in modern life. These services drive our professional productivity and personal relationships, yet as users, we’re completely disconnected from the corporate processes that define their functionality.
+The disconnect is a motivating force for the *decentralization* movement, which includes [Bitcoin](https://bitcoin.org/en/ "Bitcoin"), [Ethereum](https://www.ethereum.org/ "Ethereum"), [Freenet](https://freenetproject.org/ "Freenet"), [Secure Scuttlebutt](https://www.scuttlebutt.nz/ "Secure Scuttlebutt"), [Blockstack](https://blockstack.org/ "Blockstack"), and the [Beaker Browser](https://beakerbrowser.com) (my work) among others. Their motivations vary from the assertion of personal liberties to economic empowerment, but they all aim to somehow distribute political authority within a technical system.
 
-This disconnect is one of the motivating forces behind the *decentralization* movement, a hacktivist effort to create networks with no builtin authorities. Some projects built under the decentralization ethos include [Bitcoin](https://bitcoin.org/en/ "Bitcoin"), [Ethereum](https://www.ethereum.org/ "Ethereum"), [Freenet](https://freenetproject.org/ "Freenet"), [Secure Scuttlebutt](https://www.scuttlebutt.nz/ "Secure Scuttlebutt"), and [Blockstack](https://blockstack.org/ "Blockstack"). Their specific motivations vary from the assertion of personal liberties to economic empowerment, but they all aim to somehow distribute political authority within a technical system.
+With respect to computer networks, authority establishes who or what defines a network’s behavior. To study this, we must ask: When is authority within a computer network appropriate? Is it ever? If so, how should it be assigned? Once assigned, how can it be constrained?
 
-With respect to computer networks, authority establishes who or what defines a network’s behavior. Is authority within a computer network appropriate at all? If so, how should it be assigned? Once assigned, how can it be constrained? Or perhaps, should it be constrained at all?
-
-The "blockchain" projects like Bitcoin have attempted to solve the puzzle by removing authority entirely. What they have established is a form of *Network Constitutionalism*. Network operators are beholden by the protocol to follow a strict code. Deviation from that code is designed to be difficult. Users do not trust the operators; they trust the code. Thus the code is a kind of constitution: a rulebook for how all participants must behave.
-
- > Vires in Numeris ("Strength in Numbers")
-
- > -- [An early slogan of Bitcoin](https://bitcointalk.org/index.php?topic=4994.0 "New bitcoin logo")
-
-The concept of Network Constitutionalism is an important innovation. It is a method of constraining authority to follow a published code. Not only does the method of constraint give users protection from abuse by authorities, but the use of published code introduces the possibility of legislating the network. Users can take part in the governance of the network code by debating its definitions in order to protect their interests.
-
-In this paper, we will explore network design as a civic practice. We will establish a philosophy of network design called "Information Civics." We will draw from history to justify this philosophy of design (Section II). Then we will explore the fundamental premises and practices of Information Civics (Section III). Finally, we will explore different technical patterns and how they relate to the civic design of a network.
+We must approach our technical systems with a consideration for their political and civic designs, as they cannot be easily separated.
 
 ---
 
@@ -42,65 +28,39 @@ In order to establish the relevance of political philosophy to network design, w
 
 ### Beyond the overthrow of kings
 
-As late as the 18th century, democracy was considered dangerous. Plato thought it unstable and likely to devolve into authoritarianism. It was only through the work of political philosophers including John Locke, Jean-Jacques Rousseau, and Montesquieu, that republican democracy became perceived as a practiceable form of state government.
+In the 1647 [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates), the soldiers who helped win the English Civil War wanted suffrage, but their aristocratic commanders feared that under democratic rule, their private property would be seized by the popular vote. The landed citizens asserted that democracy and property were fundamentally incompatible: the poor could not be trusted with power when they could use it to redistribute wealth. England therefore returned to monarchy.
 
-In 1647, the [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates) captured the contemporary perspectives on democracy. The soldiers who helped win the English Civil War wanted representation, but their aristocratic commanders feared that under democratic rule, their private property would be seized by the popular vote. The landed citizens suggested that democracy and property were fundamentally incompatible: how could the poor be entrusted with power when they could use it to redistribute wealth? (See: [Democracy and its Crisis](https://www.barnesandnoble.com/w/democracy-and-its-crisis-a-c-grayling/1125902540#/ "GRAYLING, A. C. DEMOCRACY AND ITS CRISIS. S.l.: ONEWORLD PUBLICATIONS, 2018.").) Ultimately, England returned to monarchy.
+In 1689, John Locke developed his philosophy of Libertarianism in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract). If citizens are to surrender some freedom to participate in a society, then they should be protected *from* society through essential rights.
 
-In 1689, John Locke developed his philosophy of Libertarianism in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those rights which would naturally exist without society. He considered this duty to be part of an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract). Put simply, if citizens are to surrender some freedom to participate in a society, then they should get something in return. That “something” is an assurance by the government that they will be protected from society through essential rights. Locke was not the first to articulate this conception of rights, but he was the first to establish them as part of the political philosophy which justifies the assumption of authority.
+Essential rights are a premise for rules which cannot be easily removed by the majority or a minority, even within a democracy. Private property has become one such right. Depending on your leanings you may not prefer this view, but you can see the philosophical pathway which makes such a view possible; even in democracy, there are rules that should be radically difficult to change. In the United States, this is represented by the Constitution, which is not *sacred*, but it is brutally difficult to change through the amendment process. So it is, rules like property and free speech can be protected through a high degree of requisite consensus. Through this, democracy and private property are made compatible.
 
-This articulation of essential rights was an important step for modern democracy. It established a premise for inalienable rules which cannot be easily removed by the majority or a minority, even within a democracy. Property has become one such right, and therefore democracy and private property are not fundamentally incompatible.
-
-In 1748, Montesquieu expanded the mechanics of representative government with *[The Spirit of the Laws](https://en.wikipedia.org/wiki/The_Spirit_of_the_Laws)*. Along with an analysis of political systems, Montesquieu introduced the concepts of separation of powers and checks and balances. His work, along with that of Locke and Rousseau, inspired James Madison and Thomas Jefferson as they authored of the United States Constitution. While the republican governments that followed have not been without criticisms, they have been relatively stable while supporting populations that far exceeded that of nations previously ruled by European kings.
-
-Innovations in political philosophy helped develope a form of democracy which is robust enough to support millions of citizens. As we now look at the power structures embedded in large scale social computing networks, we should ask ourselves whether similar innovations can be had in computing networks. Is central control the only form of management that can scale? Or, are there more distributed forms of management structures we can use? Is it possible to build large-scale social computing networks which share decision-making power throughout the user base?
+Consider now a hypothetical: Had Locke's Two Treatises on Government existed prior to 1647, is it possible that the Putnam soldiers would have successfully argued for their democracy? If you believe the answer could be "yes," and if you believe in the value of democracy, then you might understand why I believe in Civics. We should explore the philosophy of authority in social systems so that we can properly construct their systems of governance. What republics might we lose by failing to argue for them properly?
 
 ### Applying civics to technology
 
-Let's return to the issues of technology and the decentralization movement. How can we use civics to bring clarity to the design of our networks?
-
-Semantic clarity is one possibility. Critics of the decentralization movement often note that the Web is already decentralized, as anybody can create a server without asking permission from an authority. Why then does it need to be *re*-decentralized?
+Critics of the decentralization movement often note that the Web is already decentralized, as anybody can create a server without asking permission from an authority. Why then does it need to be *re*-decentralized?
 
 This confusion stems from the use of the overly-general application of the word "centralized." While the ability to host is not consolidated on the Web, the functions of Web applications (identity, networking, configuration, data storage) are often consolidated within the hosts. As a result, it might not always be accurate to say that the Web is centralized, but rather that the application functions are.
 
-To resolve this confusion, we can try to borrow concepts from civics. For instance, we might describe the consolidation of powers into applications as the absense of a "separation of powers" on the Web. Large hosts such as Facebook are placed in charge of all tasks related to their application, and have no limit on which powers they may acquire. This terminology may be more successful, as many more people are familiar with basic civics than they are with the inner workings of technical systems.
+To resolve this confusion, we can try to borrow concepts from civics. We might describe the consolidation of powers into applications as the absense of a "separation of powers" on the Web. Large hosts such as Facebook are placed in charge of all tasks related to their application, and have no limit on which powers they may acquire.
 
-Confusions that arise from overly-broad terms suggest there's a lack of clarity in the thought or communication within the decentralization community. Participants are less likely to understand the goals of the community if the language or concepts are imprecise. This can easily lead to disagreements about the best models of authority and network design.
+Confusions which arise from overly-broad terms suggest there's a lack of clarity in the thought or communication within the decentralization community. Participants are less likely to understand the goals of the community if the language or concepts are imprecise. This can easily lead to disagreements about the best models of authority and network design.
 
 Bitcoin is now the victim of an emergent political standards process with conflicting goals. (See: ["The invisible politics of Bitcoin"](https://pdfs.semanticscholar.org/5761/af4eff318e876f2990aa53469352826214a0.pdf "The invisible politics of Bitcoin: governance crisis of a decentralised infrastructure").) Protocol changes are led by a core team then put to a vote by the miners, effectively forming a legislative body. This mechanism of voting, the miner "signal," was not originally intended to act as a vote, but has developed into that practice as interests diverged ([source](https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a "Forks, Signaling, and Activation")). The fact that voting-power in this legislature is purchased and that nearly half of the votes are controlled by four entities ([source](https://www.technologyreview.com/s/610018/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/ "Bitcoin and Ethereum have a hidden power structure, and it’s just been revealed")) should be cause for alarm. Practically speaking, the legislative design of Bitcoin is plutocratic (rule by the wealthiest participants) as mining power is a reflection of invested capital. Some people may favor this design because they feel the miners have the most investment in the protocol’s future. Others may feel the plutocracy is itself a centralization which fails to represent the majority of transactors. Either way, this is a political discussion which should be made explicit, and will lead community-members to feel disenfranchised if they disagree about the power structure.
 
-Bitcoin is not alone in its controversy. Ethereum angered many of its community members when its leaders reverted the state of the ledger to counteract the [DAO hack](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization). Were they wrong to have done so? This question challenges the basic understanding of the technology. If the goal is to have zero authority in the network, then yes they were wrong, as the rollback was a clear use of authority which existed outside of the protocol code. However if the goal is to have *constrained* authority which relies on a high degree of political consensus to make changes to the ledger, then what they did was responsible governance.
+Ethereum angered many of its community members when its leaders reverted the state of the ledger to counteract the [DAO hack](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization). Were they wrong to have done so? This question challenges the basic understanding of the technology. If the goal is to have zero authority in the network, then yes they were wrong, as the rollback was a clear use of authority which existed outside of the protocol code. However if the goal is to have *constrained* authority which relies on a high degree of political consensus to make changes to the ledger, then what they did was responsible governance.
 
 These blockchain controversies suggest that we might have an incomplete view of governance and authority. Bitcoin's standards process highlights an inescapable need to manage changes to the protocol's code. Because the protocol can not be permanently fixed, decisions must be made by the community on how it grows. Meanwhile, Ethereum's rollback might be written off as a rare occassion, but it's impossible to guarantee that rollbacks will never reach political consensus again. The mental model for Ethereum must be modified if just to account for the *possibility* of such rollbacks.
 
-Is it accurate (or even feasible) to view decentralization as the elimination of authority? If so, then we don't need to discuss the civics of computing networks, because there is no sophistication to it! If, however, decentralization can only seek to maximize the distribution of authority (as the author of this paper believes) then we should be looking for a more sophisticated model of governance which categorizes matters such as protocol development, legislative processes, and the nature of rollbacks in effective governance.
-
-### Regarding governments
-
-Finally, before introducing our conceptual framework of computing civics, we should clarify some differences between the societies of computers and the societies of human beings.
-
-Computing systems are not purely social systems. They are digital, bound by the rules of code and the limitations of hardware.
-
-Human societies, meanwhile, have their own laws and limitations. They're made up of human beings, businesses, and governments.
-
-This paper is *not* attempting to merge these two spaces. The civic systems of human societies have their own laws and meanings, while the information spaces of computing networks have a completely separate civic system, and it's the latter information civic which we explore in this paper.
-
-Let's define some concepts to add clarity to this.
-
-"Information space" is the world of computers which have interconnectivity. When there is more than one participant in the information space, you have an "information society." The philosophy around how authority is assigned in that information society is "information civics." This is the subject of the paper.
-
-There are often laws in human society which affect computing. For instance, the European Union recently passed [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "General Data Protection Regulation"), a regulation on how Web services manage user data. These laws will affect how the information society behaves, but they are not a part of the information society. The originate from the outside. For the sake of simplicity, this paper ignores such laws. This is because the goal is to explore the power structures inherent in computing networks. The goal is not to explore the interconnection between human government and computing networks.
-
-Consequently, the concepts should be considered "orthogonal" to human government. They are not connected. The "architectural rights" in information civics are a property that's unique to computing networks; they are not a prescription for laws in human governments. The same is true for "network constitutionalism" and the other concepts used. The legalistic terms are metaphors designed to build a better understanding of software design.
+Is it accurate (or even feasible) to view decentralization as the elimination of authority? If so, then we don't need to discuss the civics of computing networks, because there is no sophistication to it! If, however, decentralization can only seek to maximize the distribution of authority, then we should be looking for a more sophisticated model of governance which categorizes matters such as protocol development, legislative processes, and the nature of rollbacks in effective governance.
 
 ---
 
 ## III. Information Civics
 
-Information Civics is a conceptual framework for analyzing the design of computing networks. It is a tool for network architectures. It approaches the computing network as a social political system and attempts to answer how the technical design of a network will influence the internal politics.
+Computing networks are social and political systems. We should attempt to answer how the technical design of a network will influence the internal politics.
 
-Information Civics is founded on the principle that every computing network has an authority structure which unfolds from the assignment of capabilities. This authority system is often derived from the design of the protocol software rather than from the constraints of a hardware. By analyzing the architecture of the network, we can derive insights into its internal politics.
-
-The necessity of a political system is derived from the existence of authority. Every network possesses shared state. Devices must be given addresses; data must have references; permissions must be assigned; content must be shared and mutated. Therefore, the network must assign authority over information. That authority may be given to individual participants, or to subsets of the network, or to the network as a whole. However, the existence of that authority can not be avoided. The assignment of authority is managed by political systems. Thus, inherent in the design of a network is a political system.
+The necessity of a political system is derived from the existence of authority. Every computing network has an authority structure which unfolds from the assignment of capabilities and from the management of shared state. Devices must be given addresses; data must have references; permissions must be assigned; content must be shared and mutated. Therefore, the network must assign authority over information. That authority may be given to individual participants, or to subsets of the network, or to the network as a whole. However, the existence of that authority can not be avoided. The assignment of authority is managed by political systems. Thus, inherent in the design of a network is a political system.
 
 This reality has become no more apparent than in the Web, where Facebook and Google dictate the majority’s experience. However, the political system can also be seen in Bitcoin, where protocol changes are dictated by vote of the miners, and in E-mail, where reputation dictates the participation of servers. Every network has a political system which underpins its functions.
 
@@ -122,7 +82,7 @@ Decentralizers feel the anxiety over authoritarianism keenly. Perhaps they even 
 
 However, the anxiety is not without merit. We're increasingly aware of the effects that algorithms have on our perception, and of the capacity of these Web services to manipulate their users. We're increasingly aware of the constant surveillance of these services upon their users. We're increasingly aware of the potential for political censorship. These services are powerful, and may someday become too powerful for users' comfort.
 
-The basic act of political revolution is to "go to another service." It's in that moment that users become most cognizant of how little they owned before, as they can take nothing with them. When users adopt new services, they lose all data, all identity, all connections, all published content, and all familiarity. With the cost so high, users lack the incentive to revolt until there has been a great injustice. As they make the change, they do not find political liberation. Like the soldiers of the English Civil War, they find ourselves revolting to be ruled by another king.
+The basic act of political revolution is to "go to another service." It's in that moment that users become most cognizant of how little they owned before, as they can take nothing with them. When users adopt new services, they lose all data, all identity, all connections, all published content, and all familiarity. With the cost so high, users lack the incentive to revolt until there has been a great injustice. As they make the change, they do not find political liberation. Like the soldiers of the English Civil War in their Putnam Debates, they find ourselves revolting to be ruled by another king.
 
 ### Anti-authoritarian networking
 
@@ -146,7 +106,7 @@ Used correctly, the inefficiency of protocol development can be a feature, not a
 
 Frequently the development of standards is managed by standards bodies. Wire protocols, programming languages, and data formats will frequently establish groups comprised of industry stakeholders. For example: HTTP is governed by the [IESG](https://en.wikipedia.org/wiki/Internet_Engineering_Steering_Group "IESG"); the Web platform is governed by the [W3C](https://www.w3.org/ "W3C") and [WHATWG](https://whatwg.org/ "WhatWG"); BitTorrent is governed by the [BEP community](http://bittorrent.org/beps/bep_0001.html "BEP 0001").
 
-Bitcoin provides an interesting case-study for its standards process. To make a change, a Bitcoin Improvement Proposal (BIP) is published, debated, and approved or withdrawn. (See: [Bitcoin Improvement Proposals](https://github.com/bitcoin/bips/blob/master/README.mediawiki "Bitcoin Improvement Proposals (BIP)")). If the proposal requires a change in the consensus rules, the miners are asked to signal their support. If a minimum of support is found, the change is deployed ([source](https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a "Forks, Signaling, and Activation")). Over time, issues of block size and new features (eg [SegWit](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP 141 Segregated Witness")) have become highly politicized, and in some cases led to forks such as [Bitcoin Cash](https://www.bitcoincash.org/ "Bitcoin Cash"). This may be a case of a beneficial emergent democracy, as miners have been able to voice their interests. However, if the system is too intransigent, it may fail to progress as needed. Modern nation-states devise complex systems of governance with varied voting majorities and checks & balances to ensure that the decision-making process is effective. An emergent democratic vote may lack the necessary sophistication to legislate the network.
+Bitcoin provides an interesting case-study for its standards process. To make a change, a Bitcoin Improvement Proposal (BIP) is published, debated, and approved or withdrawn. (See: [Bitcoin Improvement Proposals](https://github.com/bitcoin/bips/blob/master/README.mediawiki "Bitcoin Improvement Proposals (BIP)")). If the proposal requires a change in the consensus rules, the miners are asked to signal their support. If a minimum of support is found, the change is deployed ([source](https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a "Forks, Signaling, and Activation")). Over time, issues of block size and new features (eg [SegWit](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP 141 Segregated Witness")) have become highly politicized, and in some cases led to forks such as [Bitcoin Cash](https://www.bitcoincash.org/ "Bitcoin Cash"). This may be a case of a beneficial emergent democracy, as miners have been able to voice their interests. However, if the system is too intransigent, it may fail to progress as needed.
 
 Federated and peer-to-peer applications do not have decentralized consensus, but they still face challenges with interoperation and data-model constraints. Two examples of subtle challenges they face are "fatal ambiguity" and "the character-count conundrum."
 
@@ -238,51 +198,9 @@ Acting as a server requires a minimum level of resources and expertise which mos
 
 The large scope of server rights has led servers to provide the overwhelming majority of functions through their service. These functions include UI, identity, user messaging, publishing, moderation, discovery, search, data storage, data backup, and any specialized functions (eg language translation). Not only are these functions expected from a service, their value is wholly incumbent on the number of existing users because there is no standard for applications to integrate with each other.
 
-All of these factors create an extremely high barrier to users acting as servers on the Web. Because the majority of architectural rights on the Web are vested in servers, the result is a power imbalance. Only servers may publish, moderate, configure, or self-identify, and, because of the cost of those obligations, only wealthy companies can run servers which provide the capabilities expected of Internet applications.
+All of these factors create a high barrier to users acting as servers on the Web. Because the majority of architectural rights on the Web are vested in servers, the result is a power imbalance. Only servers may publish, moderate, configure, or self-identify, and, because of the cost of those obligations, only wealthy companies can run servers which provide the capabilities expected of Internet applications.
 
-To counter this, we should seek to unify the rights into one user-type. These unified rights would be:
-
-<table>
-  <thead>
-    <td>Right to...</td>
-    <td>Held by</td>
-    <td>Description</td>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Identity</td>
-      <td>All users</td>
-      <td>Can have identifiers</td>
-    </tr>
-    <tr>
-      <td>Publish</td>
-      <td>All users</td>
-      <td>Can publish content</td>
-    </tr>
-    <tr>
-      <td>Permission</td>
-      <td>All users</td>
-      <td>Can control who accesses content or services</td>
-    </tr>
-    <tr>
-      <td>Configure</td>
-      <td>All users</td>
-      <td>Can choose software, settings, and infrastructure</td>
-    </tr>
-    <tr>
-      <td>Browse</td>
-      <td>All users</td>
-      <td>Can download content</td>
-    </tr>
-    <tr>
-      <td>Modify</td>
-      <td>All users</td>
-      <td>Can modify downloaded content</td>
-    </tr>
-  </tbody>
-</table>
-
-These rights will constrain what authorities are allowed to dictate to users.
+To counter this, we should seek to unify the rights into one user-type when possible.
 
 ---
 
@@ -298,7 +216,7 @@ How does this idea relate to "property rights?"
 
 In computing networks, we rely on cryptography to establish global truths. A cryptographic *hash,* for instance, produces an ID which uniquely identifies a file. Meanwhile, a cryptographic *keypair* produces an ID & signed dataset which can only be manipulated by the users which possess its secret key. Therefore, keypairs establish possession.
 
-In the Web 2.0, we use keypairs to establish possession of host URLs. This makes the host URL the property of the server which has the secret key. All resources which may be found at the host URL is under the authority of that possessor. For instance, twitter.com/bob is under the authority of the server that owns twitter.com.
+In the Web 2.0, we use keypairs and certificates to establish possession of host URLs. This makes the host URL the property of the server which has the secret key. All resources which may be found at the host URL is under the authority of that possessor. For instance, twitter.com/bob is under the authority of the server that owns twitter.com.
 
 The Web 2.0 has no mechanism to establish possession of data independently of a host; it can only treat hostnames as a possession. As a result, users have no way to assert data-ownership. Instead, they borrow URLs from hosts, and rely on the hosts to maintain their claim of ownership. This leaves users extremely dependent on their hosts in order to participate on the Web.
 
@@ -309,7 +227,7 @@ Peer-to-peer networking solves this by creating cryptographic URLs using keypair
 Cryptographic property forms the basis for the architectural rights to publishing, identity, permissioning, and configuration.
 
  - **Publishing**: Any user can publish a site, app, or dataset by allocating a cryptographic URL and sharing it.
- - **Identity**: A cryptographic URL is not attached to any service, and so users' identities are self-sovereign.
+ - **Identity**: A cryptographic URL is not attached to any service, and so users' identities are sovereign.
  - **Permissioning**: Peer-to-peer networks can support user-to-user transfer, access controls, and end-to-end encryption, therefore enabling users to exclude third-party services from the content.
  - **Configuration**: As control of the signing keys and data live on the user devices, users can freely move their data between applications.
 
@@ -359,26 +277,19 @@ At time of writing, decentralized consensus has been held back by issues of perf
 
 ---
 
-## VII. Regarding economic incentives
+## VII. Conclusion
 
-Many of the prescriptions in this paper will be disruptive to the Web's business models. Companies which rely on controlling the user interface may have difficulty placing ads. There's also the perception (rightly or not) that peer-to-peer networks encourage users to disregard copyrights.
+In this essay, I have attempted to discuss the civic philosophy which is inherent in the decentralization movement, and explored some ideas which can be used to distribute authority more equally throughout social computing networks.
 
-It's important that economics are addressed in computing networks. The software, hardware, and administration have to be profitable. Otherwise, there may not be enough incentive to drive their growth.
+I will close this essay by offering a warning.
 
-Exploring new business models is outside of the scope of this paper, but not out of the scope of this conversation. Opportunities may exist in supporter tipping, supporter subscriptions (eg Patreon), software licensing, software certification for security or quality, and new forms of advertising.
+Do not be lulled into simple extremes of perspective. There is no ideal of objectivity, nor any final machine which will order the affairs of humanity. There is only wisdom, quality, and careful judgement. Markets are as deadly device for governance as pure democracy is. Not all interactions should be tokenized or monetized. Not all decisions should be delegated. Most importantly: authority is not inherently evil, only the selfish application of authority, or the lethargy of thought which enables it.
 
----
-
-## VIII. Conclusion
-
-In this paper, I have attempted to define a subset of software design, called Information Civics. I formulated Information Civics within the context of the *decentralization movement*, provided some definitions, and then explored a set of ideas within Information Civics which can be used to distribute authority more equally throughout social computing networks.
-
-Only as a consequence of my interests, I have focused on Information Civics as a mechanism for constructing a specific political view (anti-authoritarianism). A larger or future work might seek to provide objective comparisons of political structures within the concept of Information Civics. Future work might also try to expand on the individual mechanics of politics and power in computer science.
+Be rigorous. Be careful. Challenge your assumptions, and never lean on a single mechanism. The greatest wisdom of any government is to apply multiple overlapping mechanisms which check each other.
 
 <footer>
   <p>
-    By exploring this area of software design, I hope to have shed light on the motivations of
-    many modern decentralizers, and shared some useful ideas for future network designers.
+    I hope this essay has shed light on the motivations of many modern decentralizers, and shared some useful ideas for future network designers.
   </p>
   <p>
     You can find more of my writing and related work at

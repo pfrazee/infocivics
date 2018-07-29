@@ -74,8 +74,8 @@ const out = `<html>
 
     <main>
       <div class="header">
-        <h1>Information Civics:<br><small>Deconstructing the power structures of large-scale social computing networks</small></h1>
-        <p class="author">By Paul Frazee</p>
+        <h1>Information Civics<br><small>Deconstructing the power structures of large-scale social computing networks</small></h1>
+        <p class="author">Paul Frazee</p>
       </div>
       ${docHTML}
     </main>
