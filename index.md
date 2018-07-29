@@ -28,7 +28,7 @@ Why should we study political philosophy in the context of computing networks? W
 
 In the 1647 [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates), the soldiers who helped win the English Civil War wanted suffrage, but the aristocratic commanders feared the loss of private property. The commanders argued that democracy and property were incompatible: the poor could not be trusted with power when they could use it to redistribute wealth. England therefore returned to monarchy.
 
-In 1689, John Locke developed his philosophy of Libertarianism in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those essential rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract).
+In 1689, John Locke developed his philosophy of government in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those essential rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract).
 
 Essential rights are a premise for rules which cannot be easily removed, even within a democracy. This often takes the form of a constitution, which requires a high degree of consensus to amend. With essential rights, rules like private property and free speech can be protected through a high degree of requisite consensus. Thus, democracy and private property are made compatible.
 
