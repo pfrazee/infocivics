@@ -1,40 +1,40 @@
 ## I. Introduction
 
-How should the Internet be governed? How should we manage the information, the media, the software, the politics, the people of the Web?
+How should the Internet be governed? How should we manage the information, media, software, politics, and communities of the Web?
 
-Though early crypto-anarchists imagined the Internet as ungovernable, anarchy does not describe the Internet we know today. Corporations oversee the majority of our online activity, with most people publishing and connecting through centralized platforms like Facebook, Twitter, and Google. The only non-corporate-owned application that most users are familiar with is email — and even it’s politically dominated by a corporation (Google).
+Though early crypto-anarchists imagined the Internet as ungovernable, anarchy does not describe the Internet we know today. Corporations oversee the majority of our online activity, with most people publishing and connecting through centralized platforms like Facebook, Twitter, and Google.
 
 How should the current system be described? Bruce Schneier uses the term "feudalism."
 
  > Power is consolidating around both vendor-managed user devices and large personal-data aggregators ... the rise of cloud computing means that we no longer have control of our data. ... And second, the rise of vendor-managed platforms means that we no longer have control of our computing devices.
 
- > I have previously called this model of computing feudal. Users pledge allegiance to more powerful companies who, in turn, promise to protect them from both sysadmin duties and security threats.
+ > Users pledge allegiance to more powerful companies who, in turn, promise to protect them from both sysadmin duties and security threats.
 
  > <cite>-- Bruce Schneier, ["Power in the Age of the Feudal Internet"](https://web.archive.org/web/20170618222637/http://en.collaboratory.de/w/Power_in_the_Age_of_the_Feudal_Internet "Power in the Age of the Feudal Internet")</cite>
 
-Even the most casual technology-user can recognize the inescapable role that applications like email, social networking, and document collaboration play in modern life. These services drive our lives, yet as users, we’re completely disconnected from their governance.
+Even the most casual technology-user can recognize the inescapable role that the Internet plays in modern life. Its services drive our lives, yet as users, we’re completely disconnected from their governance.
 
-The disconnect is a motivating force for the *decentralization* movement, which includes [Bitcoin](https://bitcoin.org/en/ "Bitcoin"), [Ethereum](https://www.ethereum.org/ "Ethereum"), [Freenet](https://freenetproject.org/ "Freenet"), [Secure Scuttlebutt](https://www.scuttlebutt.nz/ "Secure Scuttlebutt"), [Blockstack](https://blockstack.org/ "Blockstack"), and the [Beaker Browser](https://beakerbrowser.com) (my work) among others. Their motivations vary from the assertion of personal liberties to economic empowerment, but they all aim to somehow distribute political authority within a technical system.
+The disconnect is a motivating force for the *decentralization* movement, which includes [Bitcoin](https://bitcoin.org/en/ "Bitcoin"), [Ethereum](https://www.ethereum.org/ "Ethereum"), [Freenet](https://freenetproject.org/ "Freenet"), [Secure Scuttlebutt](https://www.scuttlebutt.nz/ "Secure Scuttlebutt"), [IPFS](https://www.ipfs.io/ "IPFS"), [Dat](https://www.datprotocol.com/ "Dat"), [Blockstack](https://blockstack.org/ "Blockstack"), and the [Beaker Browser](https://beakerbrowser.com) among others. Their motivations vary from the assertion of personal liberties to economic empowerment, but they all aim to somehow distribute political authority within a technical system.
 
-With respect to computer networks, authority establishes who or what defines a network’s behavior. To study this, we must ask: When is authority within a computer network appropriate? Is it ever? If so, how should it be assigned? Once assigned, how can it be constrained?
-
-We must approach our technical systems with a consideration for their political and civic designs, as they cannot be easily separated.
+Authority defines a network’s behavior and the powers of its participants. To change the distribution of authority, we should study how authority works. We should ask: When is authority within a computer network appropriate? How should it be assigned? Once assigned, how can it be constrained?
 
 ---
 
 ## II. The philosophy of authority
 
-In order to establish the relevance of political philosophy to network design, we should first explore what function political philosophy serves. What is the value of civics, and what is the utility in applying civics to computing networks?
+Why should we study political philosophy in the context of computing networks? What is the benefit to us as engineers and designers?
 
 ### Beyond the overthrow of kings
 
-In the 1647 [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates), the soldiers who helped win the English Civil War wanted suffrage, but their aristocratic commanders feared that under democratic rule, their private property would be seized by the popular vote. The landed citizens asserted that democracy and property were fundamentally incompatible: the poor could not be trusted with power when they could use it to redistribute wealth. England therefore returned to monarchy.
+In the 1647 [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates), the soldiers who helped win the English Civil War wanted suffrage, but the aristocratic commanders feared the loss of private property. The commanders argued that democracy and property were incompatible: the poor could not be trusted with power when they could use it to redistribute wealth. England therefore returned to monarchy.
 
-In 1689, John Locke developed his philosophy of Libertarianism in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract). If citizens are to surrender some freedom to participate in a society, then they should be protected *from* society through essential rights.
+In 1689, John Locke developed his philosophy of Libertarianism in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those essential rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract).
 
-Essential rights are a premise for rules which cannot be easily removed by the majority or a minority, even within a democracy. Private property has become one such right. Depending on your leanings you may not prefer this view, but you can see the philosophical pathway which makes such a view possible; even in democracy, there are rules that should be radically difficult to change. In the United States, this is represented by the Constitution, which is not *sacred*, but it is brutally difficult to change through the amendment process. So it is, rules like property and free speech can be protected through a high degree of requisite consensus. Through this, democracy and private property are made compatible.
+Essential rights are a premise for rules which cannot be easily removed, even within a democracy. This often takes the form of a constitution, which requires a high degree of consensus to amend. With essential rights, rules like private property and free speech can be protected through a high degree of requisite consensus. Thus, democracy and private property are made compatible.
 
-Consider now a hypothetical: Had Locke's Two Treatises on Government existed prior to 1647, is it possible that the Putnam soldiers would have successfully argued for their democracy? If you believe the answer could be "yes," and if you believe in the value of democracy, then you might understand why I believe in Civics. We should explore the philosophy of authority in social systems so that we can properly construct their systems of governance. What republics might we lose by failing to argue for them properly?
+John Locke's *Treatises* were considered instrumental to the formation of Western democracies, along with the writings of [Montesquieu](https://en.wikipedia.org/wiki/Montesquieu) and [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau).
+
+Had Locke's Two Treatises on Government existed prior to 1647, is it possible that the Putnam soldiers would have successfully argued for their democracy? Likewise, is it possible that we have lost better forms of government by lacking the ideas to articulate them?
 
 ### Applying civics to technology
 
