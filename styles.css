@@ -17,6 +17,7 @@ main {
 }
 #nav-toggle {
   display: none;
+  background: #fff;
   position: fixed;
   z-index: 1;
   top: 20px;
@@ -39,7 +40,7 @@ main {
 @media (max-width: 1050px) {
   body {
     display: block;
-    font-size: 21px;
+    font-size: 26px;
   }
   #nav-toggle {
     display: block;
