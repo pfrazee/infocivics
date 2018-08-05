@@ -24,8 +24,8 @@ main {
   left: 20px;
   width: 30px;
   height: 12px;
-  border-top: 4px solid gray;
-  border-bottom: 4px solid gray;
+  border-top: 4px solid #333;
+  border-bottom: 4px solid #333;
   cursor: pointer;
 }
 #nav-toggle:before {
@@ -35,7 +35,7 @@ main {
   top: 4px;
   left: 0;
   width: 30px;
-  border-bottom: 4px solid gray;
+  border-bottom: 4px solid #333;
 }
 .header h1 {
   text-transform: uppercase;
@@ -64,6 +64,52 @@ footer:before {
 code {
   font-size: 90%;
 }
+img {
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  border: 2px solid #303030;
+}
+img.left {
+  width: 300px;
+  max-width: 50%;
+  margin-right: 12px;  
+  float: left;
+}
+img.center {
+  margin: 0 auto;
+  width: 300px;
+  max-width: 50%;  
+}
+img.right {
+  width: 300px;
+  max-width: 50%;
+  margin-left: 12px;  
+  float: right;
+}
+img.circle {
+  border-radius: 50%;
+}
+img.autosize {
+  width: auto;
+}
+img.noborder {
+  border: 0;
+}
+img.smaller.left {
+  width: 150px;
+}
+img.smaller.right {
+  width: 200px;
+}
+.contained-img {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #333;
+  border-radius: 2px;
+}
 table {
   border-collapse: collapse;
   margin-bottom: 1em;
@@ -89,11 +135,26 @@ blockquote {
   font-size: 1.1em;
 }
 hr {
-  margin: 5em;
-  border: 1px solid #eee;
+  margin: 3em;
+  border: 0;
 }
 
 @media (max-width: 1050px) {
+  .header h1 {
+    margin: 2em 0;
+    font-size: 1.4em;
+  }
+  .header h1 small {
+    color: #666;
+  }
+  blockquote {
+    margin: 1.5em;
+    font-size: 1em;
+    color: #666;
+  }
+}
+
+@media (max-width: 1300px) {
   body {
     display: block;
   }
@@ -134,17 +195,5 @@ hr {
   main {
     margin: 0 auto;
     padding: 20px;
-  }
-  .header h1 {
-    margin: 2em 0;
-    font-size: 1.4em;
-  }
-  .header h1 small {
-    color: #666;
-  }
-  blockquote {
-    margin: 1.5em;
-    font-size: 1em;
-    color: #666;
   }
 }
