@@ -56,6 +56,7 @@ const docHTML = md.renderer.render(tocRendered.tokens, md.options)
 const out = `<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Information Civics</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="me" href="https://twitter.com/pfrazee">
