@@ -39,6 +39,7 @@ main {
 @media (max-width: 1050px) {
   body {
     display: block;
+    font-size: 21px;
   }
   #nav-toggle {
     display: block;
@@ -75,6 +76,8 @@ main {
   }
   main {
     margin: 0 auto;
+    max-width: none;
+    padding: 20px;
   }
 }
 .header h1 {
