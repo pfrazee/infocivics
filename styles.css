@@ -85,7 +85,8 @@ img.center {
 img.right {
   width: 300px;
   max-width: 50%;
-  margin-left: 12px;  
+  margin-left: 12px;
+  margin-bottom: 10px;
   float: right;
 }
 img.circle {
@@ -141,6 +142,9 @@ hr {
 }
 
 @media (max-width: 500px) {
+  body {
+    font-size: 16px;
+  }
   hr {
     margin: 2em;
   }

@@ -63,6 +63,7 @@ const out = `<html>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@pfrazee">
     <meta name="twitter:creator" content="@pfrazee">
+    <meta name="og:image" content="https://infocivics.com/images/centralization-graphs.png">
     <meta name="og:title" content="Information Civics">
     <meta name="og:description" content="An exploration of computer-network architectures as civic structures.">
   </head>
