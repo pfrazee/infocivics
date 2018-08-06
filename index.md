@@ -68,7 +68,7 @@ Is it accurate (or even feasible) to view decentralization as the elimination of
 
 ---
 
-<img src="/images/proposed-tag.png" class="center autosize" style="max-width: none">
+<img src="/images/proposed-tag.png" class="center autosize" style="max-width: 100%">
 
 ---
 
@@ -103,7 +103,7 @@ However, the anxiety is not without merit. We're increasingly aware of the effec
 
 The basic act of political revolution is to "go to another service." It's in that moment that users become most cognizant of how little they owned before, as they can take nothing with them. When users adopt new services, they lose all data, all identity, all connections, all published content, and all familiarity. With the cost so high, users lack the incentive to revolt until there has been a great injustice. As they make the change, they do not find political liberation. Like the soldiers of the English Civil War in their Putney Debates, they find ourselves revolting to be ruled by another king.
 
-<div class="contained-img" style="background-image: url(/images/july-revolution.jpg); height: 300px; background-position: top center;"></div>
+<div class="contained-img" style="background-image: url(/images/july-revolution.jpg); height: 200px; background-position: top center;"></div>
 
 ### Anti-authoritarian networking
 

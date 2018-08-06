@@ -67,6 +67,7 @@ code {
 img {
   display: block;
   width: 100%;
+  max-width: 100%;
   border-radius: 2px;
   border: 2px solid #303030;
 }
@@ -137,6 +138,12 @@ blockquote {
 hr {
   margin: 3em;
   border: 0;
+}
+
+@media (max-width: 500px) {
+  hr {
+    margin: 2em;
+  }
 }
 
 @media (max-width: 1050px) {
