@@ -26,23 +26,21 @@ Authority defines a network’s behavior and the powers of its participants. To 
 
 ## II. The philosophy of authority
 
-Why should we study political philosophy in the context of computing networks? What is the benefit to us as engineers and designers?
-
 ### Beyond the overthrow of kings
 
 <img class="right" src="/images/putneydebates.jpg">
 
 In the 1647 [Putney Debates](https://en.wikipedia.org/wiki/Putney_Debates), the soldiers who helped win the English Civil War wanted suffrage, but the aristocratic commanders feared the loss of private property. The commanders argued that democracy and property were incompatible: the poor could not be trusted with power when they could use it to redistribute wealth. England therefore returned to monarchy.
 
-In 1689, John Locke developed his philosophy of government in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect those essential rights which would naturally exist without society, an implicit agreement that justified the very existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract).
+In 1689, John Locke developed his philosophy of government in his *[Two Treatises on Government](https://en.wikipedia.org/wiki/Two_Treatises_of_Government)*. He argued that a government’s role is to protect the essential rights which would naturally exist without society, and that forms an implicit agreement that justifies the existence of government: [the Social Contract](https://en.wikipedia.org/wiki/Social_contract).
 
-Essential rights are a premise for rules which cannot be easily removed, even within a democracy. This often takes the form of a constitution, which requires a high degree of consensus to amend. With essential rights, rules like private property and free speech can be protected through a high degree of requisite consensus. Thus, democracy and private property are made compatible.
+Essential rights are a premise for rules which cannot be easily removed, even within a democracy. This often takes the form of a constitution, which requires a high degree of consensus to amend. With essential rights, rules like private property and free speech can be protected by requiring a large consensus to change. This is how democracy and (for instance) private property are made compatible; private property is made an essential right.
 
 <div class="contained-img" style="background-image: url(/images/john-locke.jpg)"></div>
 
 John Locke's *Treatises* were considered instrumental to the formation of Western democracies, along with the writings of [Montesquieu](https://en.wikipedia.org/wiki/Montesquieu) and [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau).
 
-Had Locke's Two Treatises on Government existed prior to 1647, is it possible that the Putney soldiers would have successfully argued for their democracy? Likewise, is it possible that we have lost better forms of government by lacking the ideas to articulate them?
+Had Locke's Two Treatises on Government existed prior to 1647, is it possible that the Putney soldiers would have successfully argued for a democracy? If so, could we consider civics to be another technology that needs to be developed in order to make a better future?
 
 ### Applying civics to technology
 
@@ -52,11 +50,11 @@ This confusion stems from the use of the overly-general application of the word 
 
 <img src="/images/separation-of-powers.jpg" class="right circle autosize">
 
-To resolve this confusion, we can try to borrow concepts from civics. We might describe the consolidation of powers into applications as the absense of a "separation of powers" on the Web. Large hosts such as Facebook are placed in charge of all tasks related to their application, and have no limit on which powers they may acquire.
+To resolve this confusion, we can borrow concepts from civics. We might describe the consolidation of powers into applications as the absense of a "separation of powers" on the Web. Large hosts such as Facebook are placed in charge of all tasks related to their application, and have no limit on which powers they may acquire.
 
-Confusions which arise from overly-broad terms suggest there's a lack of clarity in the thought or communication within the decentralization community. Participants are less likely to understand the goals of the community if the language or concepts are imprecise. This can easily lead to disagreements about the best models of authority and network design.
+Overly-broad terminology suggests that the communication within the decentralization community lacks clarity. We're less likely to understand the goals of the community if the language or concepts are imprecise.
 
-Bitcoin is now the victim of an emergent political standards process with conflicting goals. (See: ["The invisible politics of Bitcoin"](https://pdfs.semanticscholar.org/5761/af4eff318e876f2990aa53469352826214a0.pdf "The invisible politics of Bitcoin: governance crisis of a decentralised infrastructure").) Protocol changes are led by a core team then put to a vote by the miners, effectively forming a legislative body. This mechanism of voting, the miner "signal," was not originally intended to act as a vote, but has developed into that practice as interests diverged ([source](https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a "Forks, Signaling, and Activation")). The fact that voting-power in this legislature is purchased and that nearly half of the votes are controlled by four entities ([source](https://www.technologyreview.com/s/610018/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/ "Bitcoin and Ethereum have a hidden power structure, and it’s just been revealed")) should be cause for alarm. Practically speaking, the legislative design of Bitcoin is plutocratic (rule by the wealthiest participants) as mining power is a reflection of invested capital. Some people may favor this design because they feel the miners have the most investment in the protocol’s future. Others may feel the plutocracy is itself a centralization which fails to represent the majority of transactors. Either way, this is a political discussion which should be made explicit, and will lead community-members to feel disenfranchised if they disagree about the power structure.
+Bitcoin is now the victim of an emergent political standards process with conflicting goals. (See: ["The invisible politics of Bitcoin"](https://pdfs.semanticscholar.org/5761/af4eff318e876f2990aa53469352826214a0.pdf "The invisible politics of Bitcoin: governance crisis of a decentralised infrastructure").) Protocol changes are led by a core team then put to a vote by the miners, effectively forming a legislative body. This mechanism of voting, the miner "signal," was not originally intended to act as a vote, but has developed into that practice as interests diverged ([source](https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a "Forks, Signaling, and Activation")). The fact that voting-power in this legislature is purchased and that nearly half of the votes are controlled by four entities ([source](https://www.technologyreview.com/s/610018/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/ "Bitcoin and Ethereum have a hidden power structure, and it’s just been revealed")) should be cause for concern. Practically speaking, the legislative design of Bitcoin is plutocratic (rule by the wealthiest participants) as mining power is a reflection of invested capital. Some people may favor this design because they feel the miners have the most investment in the protocol’s future. Others may feel the plutocracy is itself a centralization which fails to represent the majority of transactors. Either way, this is a political discussion which should be made explicit, and will lead community-members to feel disenfranchised if they disagree about the power structure.
 
 <img src="/images/eth.png" class="noborder autosize" style="max-width: 100%; margin: 30px auto 40px">
 

@@ -70,9 +70,9 @@ const out = `<html>
   <body>
     <div id="nav-toggle"></div>
 
-    <nav>
+    ${''/*<nav>
       ${tocHTML}
-    </nav>
+    </nav>*/}
 
     <main>
       <div class="header">
@@ -82,7 +82,7 @@ const out = `<html>
       ${docHTML}
     </main>
 
-    <script src="/index.js"></script>
+    ${''/*<script src="/index.js"></script>*/}
   </body>
 </html>
 `
