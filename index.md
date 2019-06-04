@@ -93,7 +93,7 @@ To say centralized applications are "authoritarian" is not to disparage them. It
 
 Users are not always aware of the authoritarianism because their services try to apply their authority in an even-handed fashion. The market for Internet and Web applications is still free and open. Users can still revolt at any time, and so the services do their best to keep their users happy.
 
-But the unease about authoritarianism appears in spasms of controversy: dissatisfaction about a UI change, anger over moderation policies, or frustration about the design of algorithms or the placement of ads. It's in these moments that user's recognize their powerlessness over their applications. The outrage functionally lobbies the services for a change, but it's only effective for broad matters. Users have no power over the details in an authoritarian politic.
+But the unease about authoritarianism appears in spasms of controversy: dissatisfaction about a UI change, anger over moderation policies, or frustration about the design of algorithms or the placement of ads. It's in these moments that users recognize their powerlessness over their applications. The outrage functionally lobbies the services for a change, but it's only effective for broad matters. Users have no power over the details in an authoritarian politic.
 
 Decentralizers feel the anxiety over authoritarianism keenly. Perhaps they even feel it beyond what's reasonable. After all, to most users, Facebook isn't *that* bad, and the free market acts as a check on their authoritarian behavior.
 
