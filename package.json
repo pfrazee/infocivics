@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "build": "node gen.js"
-  },
-  "dependencies": {
-    "markdown-toc": "^1.2.0",
-    "remarkable": "^1.7.1"
-  }
-}
